@@ -1,8 +1,8 @@
 import { AppWrap } from './App.styled';
 import { Profile } from './profile/Profile';
-import { Statistics } from './statistics/Statistics';
-import { Friends } from './friends/Friends';
-import { TransactionHistory } from './transaction/TransactionHistory';
+import { Statistics } from './Statistics/Statistics';
+import { Friends } from './Friends/Friends';
+import { TransactionHistory } from './Transaction/TransactionHistory';
 import user from '../data/user.json';
 import data from '../data/data.json';
 import friends from '../data/friends.json';
