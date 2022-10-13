@@ -13,6 +13,6 @@ export default function Friends({ friends }) {
   );
 }
 
-// Friends.propTypes = {
-//   Friends: PropTypes.array.isRequired,
-// };
+Friends.propTypes = {
+  Friends: PropTypes.array.isRequired,
+};
