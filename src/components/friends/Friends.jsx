@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { FriendsItem } from './FriendsItem';
 import { FriendsList } from './Friends.styled';
 
-export default function Friends({ friends }) {
+export const Friends = ({ friends }) => {
   return (
     <FriendsList>
       {friends.map(({ id, avatar, name, isOnline }) => (
@@ -11,7 +11,7 @@ export default function Friends({ friends }) {
       ))}
     </FriendsList>
   );
-}
+};
 
 Friends.propTypes = {
   Friends: PropTypes.array.isRequired,

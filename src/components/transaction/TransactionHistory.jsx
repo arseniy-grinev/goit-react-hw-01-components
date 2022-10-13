@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import { TransHistoryTable } from './TransactionHistory.styled';
 
-export default function TransactionHistory({ items }) {
+export const TransactionHistory = ({ items }) => {
   return (
     <TransHistoryTable>
       <thead>
@@ -23,7 +23,7 @@ export default function TransactionHistory({ items }) {
       </tbody>
     </TransHistoryTable>
   );
-}
+};
 
 TransactionHistory.propTypes = {
   items: PropTypes.arrayOf(

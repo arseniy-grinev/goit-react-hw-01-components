@@ -10,10 +10,8 @@ import {
   StatsQuantity,
   ProfileStatsList,
 } from './Profile.styled';
-// import { Description } from 'components/Profile/Description';
-// import { ProfileStatsList } from 'components/Profile/ProfileStatsList';
 
-export default function Profile({ username, tag, location, avatar, stats }) {
+export const Profile = ({ username, tag, location, avatar, stats }) => {
   return (
     <ProfileWrap>
       <Description>
@@ -38,7 +36,7 @@ export default function Profile({ username, tag, location, avatar, stats }) {
       </ProfileStatsList>
     </ProfileWrap>
   );
-}
+};
 
 Profile.propTypes = {
   username: PropTypes.string.isRequired,

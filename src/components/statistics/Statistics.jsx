@@ -9,7 +9,7 @@ import {
   StatPercentage,
 } from './Statistics.styled';
 
-export default function Statistics({ title, stats }) {
+export const Statistics = ({ title, stats }) => {
   return (
     <StatisticsWrap>
       {title && <Title>{title}</Title>}
@@ -23,7 +23,7 @@ export default function Statistics({ title, stats }) {
       </StatisticsList>
     </StatisticsWrap>
   );
-}
+};
 
 Statistics.propTypes = {
   title: PropTypes.string,
