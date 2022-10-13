@@ -1,9 +1,10 @@
 import styled from 'styled-components';
+
 export const ProfileWrap = styled.div`
   width: 280px;
   margin: 0 auto;
   margin-top: 40px;
-  border-radius: 6px;
+  border-radius: 4px;
   border: 1px solid #e1e1e1;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2), 0px 2px 2px rgba(0, 0, 0, 0.2),
     0px 2px 2px rgba(0, 0, 0, 0.2);
@@ -52,7 +53,7 @@ export const ProfileStatsList = styled.ul`
   justify-content: space-between;
   margin: 0 auto;
   border-top: 1px solid #e1e1e1;
-  background-color: #f2f7f5;
+  background-color: lightgray;
   li {
     display: flex;
     flex-direction: column;
@@ -70,7 +71,7 @@ export const StatsTitle = styled.span`
   margin-bottom: 5px;
   font-size: 16px;
   line-height: 1.33;
-  color: gray;
+  color: whitesmoke;
 `;
 
 export const StatsQuantity = styled.span`
