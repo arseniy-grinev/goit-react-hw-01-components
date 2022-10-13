@@ -5,6 +5,9 @@ import './index.css';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter basename="/goit-react-hw-01-components/">
+      <App />
+    </BrowserRouter>
+    {/* <App /> */}
   </React.StrictMode>
 );
